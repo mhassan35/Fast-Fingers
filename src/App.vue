@@ -1,7 +1,16 @@
-<script setup></script>
 
 <template>
-  <h1>You did it!</h1>
+  <NavBar />
+  <AuthPopup />
+  <!-- <FeatureApp /> -->
 </template>
 
-<style scoped></style>
+<script setup>
+// import FeatureApp from './component/FeatureApp.vue';
+import AuthPopup from './component/AuthPopup.vue';
+import NavBar from './component/NavBar.vue';
+
+</script>
+
+<style scoped>
+</style>

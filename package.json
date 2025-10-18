@@ -12,10 +12,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.22"
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "axios": "^1.12.2",
+    "lorem-ipsum": "^2.0.8",
+    "random-paragraph": "^1.0.4",
+    "vue": "^3.5.22",
+    "vuetify": "^3.9.0-beta.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
+    "sass": "^1.93.2",
     "vite": "^7.1.7",
     "vite-plugin-vue-devtools": "^8.0.2"
   }
